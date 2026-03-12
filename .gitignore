@@ -1,0 +1,14 @@
+# Protect my API keys
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore auto-generated database and extracted files
+chroma_db/
+extracted_images/
+uploads/
+
+# (Optional) Ignore Mac system files if you ever share this with a Mac user
+.DS_Store
